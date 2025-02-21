@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- Left Navigation -->
+    <nav class="nav-bar">
+
+        <div class="profile-container">
+            <div class="profile-photo">
+                <!-- Replace the src with your actual image path -->
+                <img src="tyf.jpeg" alt="Profile Photo">
+            </div>
+        </div>
+
+        <a href="#about" class="nav-item active">About</a>
+        <a href="#internship" class="nav-item">Internship</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#certifications" class="nav-item">Certifications</a>
+        <a href="#education" class="nav-item">Education</a>
+        <a href="#achievements" class="nav-item">Achievements</a>
+        <a href="#contact" class="nav-item">Contact</a>
+    </nav>
+
+    <!-- Navigation dots -->
+
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress">
+        <div class="progress-bar"></div>
+    </div>
+
+    <!-- Sections -->
+
+    <section id="about">
+        <div class="section-content">
+            <div class="about-container">
+            
+                <div class="profile-section">
+                    <div class="profile-blob"></div>
+                </div>
+
+                <div class="content-section">
+                    <span class="greeting">Hello, I'm</span>
+                    <h1 class="name">Deepak Baghel</h1>
+                    <h2 class="title">Android Developer</h2>
+
+                    <p class="bio">
+                        Passionate developer with 5+ years of experience in creating elegant solutions.
+                        I specialize in full-stack development with a focus on creating intuitive and
+                        performant web applications. When I'm not coding, you'll find me exploring new
+                        technologies or contributing to open-source projects.
+                    </p>
+
+                    <div class="stats">
+                        <div class="social-links">
+                            <a href="https://github.com/deepak0266" class="social-link github" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="currentColor"
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com/in/deepak0266" class="social-link linkedin" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="currentColor"
+                                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <a href="https://leetcode.com/deepak0266" class="circular-progress-link" target="_blank">
+                            <div class="circular-progress">
+                                <div class="progress-ring">
+                                    <svg width="80" height="80" viewBox="-100 -100 200 200">
+                                        <!-- Background rings -->
+                                        <circle class="progress-ring-bg" r="0" cx="0" cy="0" />
+                                        <!-- Progress rings -->
+                                        <path class="progress-ring-easy" />
+                                        <path class="progress-ring-medium" />
+                                        <path class="progress-ring-hard" />
+                                        <!-- Center text -->
+                                        <text x="0" y="0" class="total-solved">442</text>
+                                        <text x="0" y="20" class="solved-text">solved</text>
+                                    </svg>
+                                </div>
+                                <div class="leetcode-logo">LeetCode</div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="internship" class="internship-section">
+        <div class="section-content">
+            <h2 class="section-title">Internship Experience</h2>
+            <div class="internship-grid">
+                <!-- Internship Card 1 -->
+                <div class="internship-card">
+                    <div class="company-logo">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="internship-content">
+                        <h3 class="company-name">Aroma Brand Solutions</h3>
+                        <p class="position">Android Developer Intern</p>
+                        <p class="duration">25-Nov-2024 to 07-Feb-2025</p>
+                        <ul class="responsibilities">
+                            <li><strong>1st Week:</strong> Vocabulary Builder App: Developed an app using Kotlin,
+                                SQLite, and Material Design to help users enhance vocabulary with flashcards.</li>
+                            <li><strong>2nd & 3rd Week:</strong> Event Ticket Scanner App: Created a ticket scanning app
+                                using Kotlin, ZXing API, and Firebase for real-time ticket validation and secure access.
+                            </li>
+                            <li><strong>4th Week:</strong> Banking App: Designed a secure mobile banking app using
+                                Kotlin, REST APIs, and OAuth 2.0.</li>
+                            <li><strong>5th & 6th Week:</strong> Movie Ticket Booking App: Designed a secure mobile
+                                Movie Ticket Booking App using Kotlin.</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Material Design</span>
+                            <span class="tech-tag">ZXing API</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">REST APIs</span>
+                            <span class="tech-tag">OAuth 2.0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <div class="section-content">
+            <h1 class="section-title">My Projects</h1>
+            <div class="projects-grid">
+                <!-- Cards will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2 class="section-title">Technical Skills</h2>
+
+            <div class="skills-container">
+                <!-- Languages -->
+                <div class="skills-category">
+                    <h3>Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="C++"
+                                class="skill-icon">
+                            <span>C/C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/732/732250.png" alt="XML"
+                                class="skill-icon">
+                            <span>XML</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Kotlin"
+                                class="skill-icon">
+                            <span>Kotlin</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/4492/4492311.png" alt="SQL"
+                                class="skill-icon">
+                            <span>SQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML"
+                                class="skill-icon">
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS"
+                                class="skill-icon">
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Databases -->
+                <div class="skills-category">
+                    <h3>Databases</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1199/1199128.png" alt="MySQL"
+                                class="skill-icon">
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/4492/4492311.png" alt="SQLite"
+                                class="skill-icon">
+                            <span>SQLite</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="Firebase"
+                                class="skill-icon">
+                            <span>Firebase</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="MongoDB"
+                                class="skill-icon">
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skills-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/518/518713.png" alt="Android Studio"
+                                class="skill-icon">
+                            <span>Android Studio</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="GitHub"
+                                class="skill-icon">
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5969/5969294.png" alt="PowerApps"
+                                class="skill-icon">
+                            <span>PowerApps</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" alt="VS Code"
+                                class="skill-icon">
+                            <span>VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <div class="section-content">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-title">Kotlin: Real Android App Dev</div>
+                    <div class="cert-issuer">Udemy</div>
+                    <div class="cert-date">August 2024</div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-title">Android Studio: Complete guide of android app development</div>
+                    <div class="cert-issuer">Udemy</div>
+                    <div class="cert-date">July 2024</div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-title">C++: Code Like you are in MATRIX</div>
+                    <div class="cert-issuer">Udemy</div>
+                    <div class="cert-date">June 2024</div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-title">Learn to Build GUI Based C++ Applications</div>
+                    <div class="cert-issuer">Udemy</div>
+                    <div class="cert-date">February 2024</div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-title">Data Structure and Algorithm</div>
+                    <div class="cert-issuer">Yhills</div>
+                    <div class="cert-date">August 2023</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-card">
+                    <div class="education-header">
+                        <h3>Bachelor's of Technology (B.Tech)</h3>
+                        <span class="year">2021-2025</span>
+                    </div>
+                    <div class="education-body">
+                        <p class="course">Computer Science and Information Technology</p>
+                        <p class="school">Dronacharya Group of Institutions</p>
+                        <div class="percentage">
+                            <div class="percentage-bar" data-percentage="75.54">
+                                <div class="fill"></div>
+                            </div>
+                            <span>75.54%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-header">
+                        <h3>Intermediate (12th)</h3>
+                        <span class="year">2019-2020</span>
+                    </div>
+                    <div class="education-body">
+                        <p class="course">Science (PCM: Physics, Chemistry, Mathematics)</p>
+                        <p class="school">B.S. Public School</p>
+                        <div class="percentage">
+                            <div class="percentage-bar" data-percentage="86.8">
+                                <div class="fill"></div>
+                            </div>
+                            <span>86.8%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-header">
+                        <h3>High School (10th)</h3>
+                        <span class="year">2017-2018</span>
+                    </div>
+                    <div class="education-body">
+                        <p class="course">General Education</p>
+                        <p class="school">B.S. Public School</p>
+                        <div class="percentage">
+                            <div class="percentage-bar" data-percentage="75.83">
+                                <div class="fill"></div>
+                            </div>
+                            <span>75.83%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section">
+        <div class="section-content">
+            <h2 class="section-title">Awards & Achievements</h2>
+            <div class="awards-grid">
+                <!-- Award Card 1 -->
+                <div class="award-card">
+                    <div class="award-content">
+                        <img src="/api/placeholder/100/100" alt="Academic Award" class="award-icon">
+                        <h3>Academic Performance Award</h3>
+                        <div class="award-details">
+                            <p>Scholastic achievement and displaying consistent academic excellence.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Award Card 2 -->
+                <div class="award-card">
+                    <div class="award-content">
+                        <img src="/api/placeholder/100/100" alt="Hackathon Winner" class="award-icon">
+                        <h3>Diabetic Retinopathy Detection</h3>
+                        <div class="award-details">
+                            <p>Secured 1st place in college Hackathon with a Diabetic Retinopathy Detection Webapp.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Award Card 3 -->
+                <div class="award-card">
+                    <div class="award-content">
+                        <img src="/api/placeholder/100/100" alt="NCAT Certificate" class="award-icon">
+                        <h3>NCAT Certification</h3>
+                        <div class="award-details">
+                            <p>Got All India Rank 55 in the National Creativity Aptitude Test.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Award Card 4 -->
+                <div class="award-card">
+                    <div class="award-content">
+                        <img src="/api/placeholder/100/100" alt="Quiz Competition" class="award-icon">
+                        <h3>Quiz Competition Finalist</h3>
+                        <div class="award-details">
+                            <p>Successfully qualified as a finalist in the nationwide quiz 'Allrounder' hosted on
+                                Unstop.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Award Card 5 -->
+                <div class="award-card">
+                    <div class="award-content">
+                        <img src="/api/placeholder/100/100" alt="Case Study" class="award-icon">
+                        <h3>Case Study Competition</h3>
+                        <div class="award-details">
+                            <p>Selected as a finalist for the 'Unpack the Facts-Decoding packaged food'.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Award Card 6 -->
+                <div class="award-card">
+                    <div class="award-content">
+                        <img src="/api/placeholder/100/100" alt="LeetCode" class="award-icon">
+                        <h3>Problem Solving Dedication</h3>
+                        <div class="award-details">
+                            <p>Maintained the streak of 150 consecutive days on LeetCode.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-content">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <!-- Contact Info Cards -->
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>deepakbaghel6602@gmail.com</p>
+                        <button class="copy-btn" data-value="your.email@example.com">
+                            Copy
+                        </button>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+91 7078825153</p>
+                        <button class="copy-btn" data-value="+919876543210">
+                            Copy
+                        </button>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Gamma 1, Greater Noida, Uttar Pradesh, India</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        Send Message
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
